@@ -1,12 +1,12 @@
 import './App.css'
 import Header from './components/Header';
-import DashBoard from './components/Dashboard';
+import MainSection from './components/MainSection';
 
 function App() {
   return (
     <div className='bg-[#111827] text-[#F9FAFB]'>
       <Header />
-      <DashBoard />
+      <MainSection />
     </div>
   )
 }
