@@ -1,6 +1,6 @@
 function DashBoard(){
   return(
-    <div className="">
+    <div>
 
     </div>
   )
