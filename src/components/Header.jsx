@@ -1,14 +1,11 @@
 function Header(){
-  return(
-    <>
-      <h1>Chronicle</h1>
-      <p>
-        Chronicle is a lightweight, user-friendly booking dashboard built for service-based businesses that need a simple way to manage client appointments.
+  return (
+    <div className="p-1">
+      <h1 className="text-4xl font-bold text-center my-3 font-serif">CHRONICLE</h1>
+      <p className="text-2xl my-4 text-center">
+        A simple dashboard for service businesses to manage appointments and clients—no backend needed.
       </p>
-      <p>
-        Whether you're a hairstylist, tutor, fitness coach, or freelancer, Chronicle helps you track bookings, manage client information, and stay organized—all in one place, with no backend required.
-      </p>
-    </>
+    </div>
   )
 }
 
