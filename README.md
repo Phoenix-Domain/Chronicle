@@ -90,3 +90,15 @@ MIT
 Batubo Victory
 Self-taught frontend developer based in Nigeria 🇳🇬
 Portfolio Website | GitHub | Twitter
+
+Color Scheme
+| Purpose         | Color Code | Description                        |
+| --------------- | ---------- | ---------------------------------- |
+| Background      | `#111827`  | Dark slate                         |
+| Card Background | `#1F2937`  | Slightly lighter than background   |
+| Primary Text    | `#F9FAFB`  | Soft white                         |
+| Secondary Text  | `#9CA3AF`  | Gray text for labels/secondary UI  |
+| Accent Button   | `#3B82F6`  | Same vivid blue (consistent brand) |
+| Success Badge   | `#10B981`  | Same green                         |
+| Pending Badge   | `#FBBF24`  | Same amber                         |
+| Input Border    | `#374151`  | Muted dark gray                    |
