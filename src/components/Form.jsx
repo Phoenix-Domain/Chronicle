@@ -35,6 +35,8 @@ function Form (){
           <option value="Cancelled">Cancelled</option>
         </select>
       </label>
+
+      <button type="submit" className="border-1 py-1 px-4 w-fit rounded-full">Add Client</button>
     </form>
   )
 }
