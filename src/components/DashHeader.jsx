@@ -1,7 +1,7 @@
 function DashHeader(){
   return (
-    <div>
-      <h2>Chronicle</h2>
+    <div className="flex justify-around items-center">
+      <h2 className="text-xl font-bold">Booking Dashboard</h2>
       <h3>Total Clients: <span></span></h3>
     </div>
   )
