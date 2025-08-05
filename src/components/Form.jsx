@@ -5,10 +5,23 @@ function Form (){
 const [clientInfo, setClientInfo] = useState([])
 
 useEffect(() => {
-  const { clientNameInput,clientEmailInput,clientPhoneInput,clientServiceInput,clientBookingDateInput,clientStatusInput,addClientBtn } = DOMelements()
+  const { clientNameInput,clientEmailInput,clientPhoneInput,clientServiceInput,clientBookingDateInput,clientStatusInput,addClientBtn } = DOMelements();
+
+  addClientBtn.addEventListener('click', e => {
+    e.preventDefault();
+
+    setClientInfo([{
+      name:clientNameInput.value,
+      email:clientEmailInput.value,
+      phone:clientPhoneInput.value,
+      service:clientServiceInput.value,
+      bookingDate:clientBookingDateInput.value,
+      status:clientStatusInput.value,
+    }])
+  })  
 },[])
 
-
+console.log(clientInfo)
 
   return (
     <form action="" className="flex flex-col justify-between gap-5 p-3">
